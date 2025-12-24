@@ -73,11 +73,11 @@ if __name__ == "__main__":
 
     # 邮件配置
     subject = "聚宽QDII异步数据日报"
-    sender = "your_email@qq.com"
-    receivers = ["target@example.com"]
+    sender = "2090975372@qq.com"
+    receivers = ["2090975372@qq.com"]
     smtp_server = "smtp.qq.com"
     smtp_port = 465
     smtp_user = "2090975372l@qq.com"
-    smtp_pass = "你的授权码"  # 注意这里是授权码
+    smtp_pass = "mdumaokmgyreedcj"  # 注意这里是授权码
 
     send_email(subject, table_str, sender, receivers, smtp_server, smtp_port, smtp_user, smtp_pass)
