@@ -77,7 +77,7 @@ if __name__ == "__main__":
     receivers = ["target@example.com"]
     smtp_server = "smtp.qq.com"
     smtp_port = 465
-    smtp_user = "your_email@qq.com"
+    smtp_user = "2090975372l@qq.com"
     smtp_pass = "你的授权码"  # 注意这里是授权码
 
     send_email(subject, table_str, sender, receivers, smtp_server, smtp_port, smtp_user, smtp_pass)
